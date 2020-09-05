@@ -220,7 +220,7 @@ bool Isquote(char c);
 int main()
 {
 
-    for(int i=20;i<23;i++)
+    for(int i=101;i<105;i++)
     {
         string fileName = to_string(i);
         fileName = fileName+".txt";
