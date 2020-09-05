@@ -249,15 +249,13 @@ int main()
                 string word; 
                 ss >> word; 
           
-                // Print the read word 
-                TrieNode* temp; //temp is the leaf node of the word.. 
-                temp = trie.search(word);
+                TrieNode* temp; 
+                temp = trie.search(word);   //if the word is present, we get the leaf node of the word in the trie..
                 if(temp == NULL)
                     trie.insert(word,i);
                 else
                     (*temp).updateWordFreq(word,i);
           
-                // While there is more to read 
             } while (ss); 
         }
 
