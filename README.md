@@ -1,7 +1,7 @@
 # Inverted Index
 This is an implementation of inverted index, which maps the words extracted from a set of documents, to the documents in which they are present.
 
-I've taken a set of documents, extracted words present in them, and then mapped each word with "posting lists" (list of documents in which the word occurs). For each word, I've also stored the number of documents in which it occurs, and the number of times it occurs in each document.
+I've taken a set of documents, extracted words present in them, and then mapped each word with "posting lists" (list of documents in which the word occurs). For each word, I've stored the number of documents in which it occurs, and the number of times it occurs in each document.
 
 ## Datastructures chosen for implementation
 
